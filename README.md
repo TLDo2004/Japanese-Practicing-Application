@@ -49,3 +49,7 @@ no server rewrite. Do not deploy with a localhost API base.
 
 Handwriting fixtures under `packages/handwriting/templates/` are **frozen**
 regression evidence — do not silently regenerate them.
+
+## Credits
+
+Designed by Thanhliem Do.

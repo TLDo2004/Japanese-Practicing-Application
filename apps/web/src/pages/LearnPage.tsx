@@ -115,6 +115,8 @@ export function LearnPage() {
           ))}
         </div>
       </section>
+
+      <p className="muted design-credit">{t("design_credit")}</p>
     </div>
   );
 }

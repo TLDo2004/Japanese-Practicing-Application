@@ -103,6 +103,8 @@ export default function LearnScreen() {
           ))}
         </View>
       </Section>
+
+      <Text style={styles.credit}>{t("design_credit")}</Text>
     </ScrollView>
   );
 }
@@ -129,4 +131,12 @@ const styles = StyleSheet.create({
   scriptName: { fontFamily: fonts.bodySemi, fontSize: 15, color: colors.text },
   scriptCount: { fontFamily: fonts.body, fontSize: 13, color: colors.textMuted },
   chevron: { fontFamily: fonts.body, fontSize: 20, color: colors.textMuted },
+  credit: {
+    marginTop: space[4],
+    marginBottom: space[2],
+    textAlign: "center",
+    fontFamily: fonts.body,
+    fontSize: 12,
+    color: colors.textMuted,
+  },
 });

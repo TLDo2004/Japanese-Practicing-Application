@@ -353,6 +353,12 @@ a { color: inherit; }
   font-size: 0.875rem;
 }
 
+.design-credit {
+  margin-top: var(--s-6);
+  text-align: center;
+  font-size: 0.75rem;
+}
+
 .note {
   color: var(--text-2);
   font-size: 0.9375rem;
@@ -1397,6 +1403,13 @@ a { color: inherit; }
     display: flex;
     flex-direction: column;
     gap: 2px;
+  }
+
+  .rail-credit {
+    margin-top: auto;
+    padding: var(--s-4) var(--s-2) 0;
+    font-size: 0.75rem;
+    line-height: 1.35;
   }
 
   .rail-item {

@@ -4,6 +4,7 @@
  */
 const CATALOG: Record<string, string> = {
   app_name: "Japanese Practicing",
+  design_credit: "Designed by Thanhliem Do",
   back: "Back",
 
   nav_learn: "Learn",

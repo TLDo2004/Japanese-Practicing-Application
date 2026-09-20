@@ -19,7 +19,7 @@
     "mobile": "npm run start -w @jpa/mobile",
     "mobile:android": "npm run android -w @jpa/mobile"
   },
-  "author": "",
+  "author": "Thanhliem Do",
   "license": "MIT",
   "devDependencies": {
     "@playwright/test": "^1.63.0",

@@ -33,6 +33,7 @@ export function SideRail({ tab }: { tab: TabId }) {
           </NavLink>
         ))}
       </nav>
+      <p className="rail-credit muted">{t("design_credit")}</p>
     </div>
   );
 }
