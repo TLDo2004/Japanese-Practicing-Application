@@ -1,0 +1,30 @@
+{
+  "name": "japanese-practicing-application",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Hiragana and katakana practice — web (PWA) and Android (Expo)",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit -p tsconfig.json && tsc --noEmit -p apps/web/tsconfig.json",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "dev:web": "npm run dev -w @jpa/web",
+    "build:web": "npm run build -w @jpa/web",
+    "preview:web": "npm run preview -w @jpa/web",
+    "test:e2e": "playwright test",
+    "test:e2e:pwa": "npm run build:web && playwright test -c playwright.pwa.config.ts",
+    "mobile": "npm run start -w @jpa/mobile",
+    "mobile:android": "npm run android -w @jpa/mobile"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "@playwright/test": "^1.63.0",
+    "@types/node": "^26.6.2",
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
+  }
+}

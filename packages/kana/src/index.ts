@@ -1,0 +1,22 @@
+export {
+  BASIC_ROWS,
+  VOICED_ROWS,
+  YOON_ROWS,
+  CHART,
+  CHART_COLUMNS,
+  CHART_VOWELS,
+  BASIC,
+  VOICED,
+  YOON,
+  FULL71,
+  ALL,
+  BY_RO,
+  CONFUSABLE_GROUPS,
+  SET_COUNTS,
+  ROMAJI_ALIASES,
+  lettersFor,
+  confusablePeers,
+  matchPeers,
+  setLabelKana,
+} from "./kana";
+export type { Letter, KanaRow, ChartSection } from "./kana";

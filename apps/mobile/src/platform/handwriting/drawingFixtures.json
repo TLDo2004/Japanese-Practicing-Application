@@ -1,0 +1,291 @@
+{
+  "description": "Drawing-based fixtures for Canvas/software vs native raster parity. Reuses geometry Drawings from the 27-oracle set; does not replace them.",
+  "tolerances": {
+    "inkCountRatio": [
+      0.85,
+      1.15
+    ],
+    "iouMin": 0.75,
+    "note": "Software reference raster is the browser-equivalent RASTER_SPEC path at 256. Skia (when available) should stay within these bounds; recognition status must match for the same Drawing."
+  },
+  "fixtures": [
+    {
+      "id": "kata-shi-horizontal-strokes",
+      "alphabet": "kata",
+      "expectedRo": "shi",
+      "drawing": [
+        [
+          {
+            "x": 48,
+            "y": 72
+          },
+          {
+            "x": 208,
+            "y": 64
+          }
+        ],
+        [
+          {
+            "x": 44,
+            "y": 118
+          },
+          {
+            "x": 214,
+            "y": 110
+          }
+        ],
+        [
+          {
+            "x": 70,
+            "y": 150
+          },
+          {
+            "x": 188,
+            "y": 208
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "kata-shi-horizontal-expect-tsu",
+      "alphabet": "kata",
+      "expectedRo": "tsu",
+      "drawing": [
+        [
+          {
+            "x": 48,
+            "y": 72
+          },
+          {
+            "x": 208,
+            "y": 64
+          }
+        ],
+        [
+          {
+            "x": 44,
+            "y": 118
+          },
+          {
+            "x": 214,
+            "y": 110
+          }
+        ],
+        [
+          {
+            "x": 70,
+            "y": 150
+          },
+          {
+            "x": 188,
+            "y": 208
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "kata-tsu-vertical-strokes",
+      "alphabet": "kata",
+      "expectedRo": "tsu",
+      "drawing": [
+        [
+          {
+            "x": 86,
+            "y": 46
+          },
+          {
+            "x": 78,
+            "y": 168
+          }
+        ],
+        [
+          {
+            "x": 138,
+            "y": 42
+          },
+          {
+            "x": 132,
+            "y": 170
+          }
+        ],
+        [
+          {
+            "x": 186,
+            "y": 70
+          },
+          {
+            "x": 96,
+            "y": 208
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "kata-tsu-vertical-expect-shi",
+      "alphabet": "kata",
+      "expectedRo": "shi",
+      "drawing": [
+        [
+          {
+            "x": 86,
+            "y": 46
+          },
+          {
+            "x": 78,
+            "y": 168
+          }
+        ],
+        [
+          {
+            "x": 138,
+            "y": 42
+          },
+          {
+            "x": 132,
+            "y": 170
+          }
+        ],
+        [
+          {
+            "x": 186,
+            "y": 70
+          },
+          {
+            "x": 96,
+            "y": 208
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "kata-so-vertical-strokes",
+      "alphabet": "kata",
+      "expectedRo": "so",
+      "drawing": [
+        [
+          {
+            "x": 90,
+            "y": 50
+          },
+          {
+            "x": 70,
+            "y": 190
+          }
+        ],
+        [
+          {
+            "x": 160,
+            "y": 48
+          },
+          {
+            "x": 150,
+            "y": 200
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "kata-so-vertical-expect-n",
+      "alphabet": "kata",
+      "expectedRo": "n",
+      "drawing": [
+        [
+          {
+            "x": 90,
+            "y": 50
+          },
+          {
+            "x": 70,
+            "y": 190
+          }
+        ],
+        [
+          {
+            "x": 160,
+            "y": 48
+          },
+          {
+            "x": 150,
+            "y": 200
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "kata-n-horizontal-strokes",
+      "alphabet": "kata",
+      "expectedRo": "n",
+      "drawing": [
+        [
+          {
+            "x": 40,
+            "y": 80
+          },
+          {
+            "x": 210,
+            "y": 70
+          }
+        ],
+        [
+          {
+            "x": 50,
+            "y": 140
+          },
+          {
+            "x": 200,
+            "y": 175
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "kata-n-horizontal-expect-so",
+      "alphabet": "kata",
+      "expectedRo": "so",
+      "drawing": [
+        [
+          {
+            "x": 40,
+            "y": 80
+          },
+          {
+            "x": 210,
+            "y": 70
+          }
+        ],
+        [
+          {
+            "x": 50,
+            "y": 140
+          },
+          {
+            "x": 200,
+            "y": 175
+          }
+        ]
+      ],
+      "legacyStatus": "bad"
+    },
+    {
+      "id": "single-point-stroke",
+      "alphabet": "hira",
+      "expectedRo": "a",
+      "drawing": [
+        [
+          {
+            "x": 128,
+            "y": 128
+          }
+        ]
+      ],
+      "legacyStatus": "empty"
+    }
+  ]
+}
